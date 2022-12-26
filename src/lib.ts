@@ -1,3 +1,3 @@
-import ReadFast from './components/ReadFast.vue'
+import ReadFast from './ReadFast.vue'
 
 export { ReadFast }

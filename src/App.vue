@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import ReadFast from './components/ReadFast.vue'
+import ReadFast from './ReadFast.vue'
 </script>
 
 <template>
