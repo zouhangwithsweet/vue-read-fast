@@ -8,6 +8,6 @@ import ReadFast from '../src/ReadFast.vue'
     <h2 class="text-center">
       <Balancer>The Three Musketeers</Balancer>
     </h2>
-    <ReadFast />
+    <ReadFast class="animate-bounce inline-flex" font-style="color: green;" />
   </div>
 </template>

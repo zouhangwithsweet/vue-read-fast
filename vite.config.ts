@@ -15,6 +15,6 @@ export default defineConfig({
     unocss(),
   ],
   server: {
-    open: 'playground/index.html',
+    open: '/playground',
   },
 })
