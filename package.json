@@ -1,8 +1,17 @@
 {
-  "name": "read-fast",
-  "private": true,
+  "name": "vue-read-fast",
   "version": "0.0.0",
   "type": "module",
+  "files": ["dist"],
+  "main": "./dist/read-fast.cjs",
+  "module": "./dist/read-fast.js",
+  "exports": {
+    ".": {
+      "import": "./dist/read-fast.js",
+      "require": "./dist/read-fast.cjs"
+    }
+  },
+  "types": "./dist/lib.d.ts",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

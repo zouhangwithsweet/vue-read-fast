@@ -14,7 +14,7 @@ pnpm add vue-read-fast
 
 ```vue
 <script setup>
-import ReadFast from 'vue-read-fast'
+import { ReadFast } from 'vue-read-fast'
 </script>
 
 <template>

@@ -43,11 +43,6 @@ function getAllIndexes(arr: string[], val: string) {
 
 <template>
   <div ref="wrapper">
-    <slot>
-      The Three Musketeers: D'Artagnan (a poor young nobleman) leaves his family in Gascony and travels to Paris to join
-      the Musketeers of the Guard. He makes inseparable friends with Athos, Porthos and Aramis. To defend Queen Anne of
-      Austria, they fight against Cardinal Richelieu, reach London against all the odds, get back the diamond studs from
-      the Duke of Buckingham, and finally foil the Cardinal’s plot of sowing dissension between the King and the Queen.
-    </slot>
+    <slot />
   </div>
 </template>

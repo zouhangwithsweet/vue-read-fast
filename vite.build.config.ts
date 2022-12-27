@@ -14,7 +14,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, 'src/lib.ts'),
-      formats: ['iife', 'es'],
+      formats: ['cjs', 'es'],
       name: 'ReadFast',
     },
     rollupOptions: {
